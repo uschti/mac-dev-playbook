@@ -1,3 +1,5 @@
+Ansible 
+
 ---
 downloads: ~/.ansible-downloads/
 
@@ -5,72 +7,97 @@ configure_sudoers: yes
 configure_terminal: yes
 configure_osx: yes
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+dotfiles_repo: https://github.com/kisamoto/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
+dotfiles_repo_local_destination: ~/Development/github.com/kisamoto/dotfiles
 dotfiles_files:
+  - .aliases
   - .bash_profile
   - .gitconfig
   - .gitignore
   - .inputrc
-  - .osx
+  - .macos
   - .vimrc
+  - .tmux.conf
 
 homebrew_installed_packages:
-  # - ansible # Installed via Pip.
   - autoconf
+  - pt
+  - zsh
   - bash-completion
-  - chromedriver
-  - doxygen
-  - gettext
-  - gifsicle
   - git
-  - go
   - gpg
-  - hub
   - httpie
   - iperf
   - libevent
   - sqlite
-  - mcrypt
   - nmap
   - npm
   - nvm
   - ssh-copy-id
-  - cowsay
+  - tree
+  - watch
   - readline
   - openssl
   - pv
   - wget
   - wrk
+  - ffmpeg
+  - cowsay
+  - youtube-dl
+  - dos2unix
+  - htop
+  - tmux
+  - trash
+  - speedtest-cli
+  - thefuck
+  - fortune
+  - imagemagick
+  - python3
+  - z
+  - terraform
+  - awscli
+  - openshift-cli
 
 homebrew_taps:
   - homebrew/core
   - caskroom/cask
   - homebrew/binary
   - homebrew/dupes
-  - homebrew/php
   - homebrew/versions
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - vivaldi
+  - private-internet-access
   - docker
-  - dropbox
-  # - fing # Download link keeps getting changed, d'oh!
   - firefox
   - google-chrome
   - handbrake
-  - licecap
-  - limechat
   - macvim
   - nvalt
-  - sequel-pro
   - skitch
   - slack
   - sublime-text
-  - transmit
   - vagrant
   - virtualbox
+  - skype
+  - mattermost
+  - flux
+  - dash
+  - visual-studio-code
+  - iterm2
+  - onedrive
+  - caffeine
+  - spotify
+  - the-unarchiver
+  - shiftit
+  - intellij-idea
+  - datagrip
+  - pycharm
+  - webstorm
+  - appcode
+  - java
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
