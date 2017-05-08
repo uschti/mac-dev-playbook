@@ -20,6 +20,7 @@ dotfiles_files:
 
 homebrew_installed_packages:
   - autoconf
+  - stormssh
   - pt
   - zsh
   - bash-completion
