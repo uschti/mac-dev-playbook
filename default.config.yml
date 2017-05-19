@@ -20,45 +20,50 @@ dotfiles_files:
 
 homebrew_installed_packages:
   - autoconf
-  - stormssh
-  - pt
-  - zsh
+  - awscli
   - bash-completion
+  - cookiecutter
+  - cowsay
+  - dos2unix
+  - ffmpeg
+  - fortune
   - git
+  - glide
+  - go
   - gpg
+  - htop
   - httpie
+  - imagemagick
   - iperf
   - libevent
-  - sqlite
   - nmap
   - npm
-  - yarn
   - nvm
-  - ssh-copy-id
-  - tree
-  - watch
-  - readline
+  - openshift-cli
   - openssl
+  - pt
   - pv
-  - wget
-  - wrk
-  - ffmpeg
-  - cowsay
-  - youtube-dl
-  - dos2unix
-  - htop
+  - pwgen
+  - python3
+  - readline
+  - reattach-to-user-namespace # for tmux
+  - source-to-image
+  - speedtest-cli
+  - sqlite
+  - ssh-copy-id
+  - stormssh
+  - terraform
+  - thefuck
   - tmux
   - trash
-  - speedtest-cli
-  - thefuck
-  - fortune
-  - imagemagick
-  - python3
+  - tree
+  - watch
+  - wget
+  - wrk
+  - yarn
+  - youtube-dl
   - z
-  - terraform
-  - awscli
-  - openshift-cli
-  - reattach-to-user-namespace # for tmux
+  - zsh
 
 homebrew_taps:
   - homebrew/core
@@ -69,36 +74,36 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - vivaldi
+  - appcode
+  - caffeine
+  - dash
+  - datagrip
   - docker
   - firefox
+  - flux
   - google-chrome
   - handbrake
+  - intellij-idea
+  - iterm2
+  - java
   - macvim
+  - mattermost
   - nvalt
+  - onedrive
+  - pycharm
+  - shiftit
   - skitch
+  - skype
   - slack
+  - spotify
   - sublime-text
+  - the-unarchiver
   - vagrant
   - virtualbox
-  - skype
-  - mattermost
-  - flux
-  - dash
   - visual-studio-code
-  - iterm2
-  - onedrive
-  - caffeine
-  - spotify
-  - the-unarchiver
-  - shiftit
-  - intellij-idea
-  - datagrip
-  - pycharm
-  - webstorm
-  - appcode
-  - java
+  - vivaldi
   - vlc
+  - webstorm
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
