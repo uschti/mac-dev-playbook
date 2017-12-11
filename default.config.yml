@@ -20,22 +20,29 @@ dotfiles_files:
 
 homebrew_installed_packages:
   - autoconf
+  - android-sdk
   - awscli
+  - azure-cli
   - bash-completion
   - cookiecutter
   - cowsay
   - dos2unix
+  - exiftool
   - ffmpeg
   - fortune
+  - gcc
   - git
   - glide
   - go
   - gpg
   - htop
   - httpie
+  - hugo
   - imagemagick
   - iperf
+  - lego
   - libevent
+  - mosh
   - nmap
   - npm
   - nvm
@@ -107,6 +114,17 @@ homebrew_cask_apps:
   - webstorm
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
+mas_installed_apps:
+  - { id: 824183456, name: "Affinity Photo (1.6.6)"}
+  - { id: 572526628, name: "Zeitraffer (1.1.0)"}
+  - { id: 692867256, name: "Simplenote (1.1.8)"}
+  - { id: 497799835, name: "Xcode (9.1)"}
+  - { id: 734418810, name: "SSH Tunnel (16.07)"}
+  - { id: 409183694, name: "Keynote (7.3.1)"}
+  - { id: 931134707, name: "Wire (3.1)"}
+  - { id: 823766827, name: "OneDrive (17.3.7078)"}
+  - { id: 452695239, name: "QREncoder (1.5)"}
+  - { id: 912423770, name: "Command & Conquer Generals Deluxe Edition (1.1.2)"}
+
 mas_email: ""
 mas_password: ""
