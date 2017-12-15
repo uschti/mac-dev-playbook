@@ -15,6 +15,7 @@ dotfiles_files:
   - .gitignore
   - .inputrc
   - .macos
+  - .vim
   - .vimrc
   - .tmux.conf
   - .zshrc
