@@ -22,7 +22,6 @@ dotfiles_files:
 
 homebrew_installed_packages:
   - autoconf
-  - android-sdk
   - awscli
   - azure-cli
   - bash-completion
