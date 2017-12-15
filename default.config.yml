@@ -117,7 +117,6 @@ homebrew_cask_apps:
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
   - { id: 824183456, name: "Affinity Photo (1.6.6)"}
-  - { id: 572526628, name: "Zeitraffer (1.1.0)"}
   - { id: 692867256, name: "Simplenote (1.1.8)"}
   - { id: 497799835, name: "Xcode (9.1)"}
   - { id: 734418810, name: "SSH Tunnel (16.07)"}
