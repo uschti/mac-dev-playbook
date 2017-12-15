@@ -83,6 +83,7 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - java # at the top for android dependency
   - appcode
   - android-sdk
   - caffeine
@@ -95,7 +96,6 @@ homebrew_cask_apps:
   - handbrake
   - intellij-idea
   - iterm2
-  - java
   - macvim
   - mattermost
   - nvalt
