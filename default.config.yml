@@ -17,6 +17,8 @@ dotfiles_files:
   - .macos
   - .vimrc
   - .tmux.conf
+  - .zshrc
+  - .zshrc.pre-oh-my-zsh
 
 homebrew_installed_packages:
   - autoconf
