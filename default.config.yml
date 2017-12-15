@@ -85,7 +85,7 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - java # at the top for android dependency
   - appcode
-  - android-sdk
+  # - android-sdk
   - caffeine
   - dash
   - datagrip
@@ -109,7 +109,7 @@ homebrew_cask_apps:
   - sublime-text
   - the-unarchiver
   - vagrant
-  - virtualbox
+  # - virtualbox
   - visual-studio-code
   - vivaldi
   - vlc
