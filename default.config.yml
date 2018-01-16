@@ -30,6 +30,7 @@ homebrew_installed_packages:
   - cowsay
   - dos2unix
   - exiftool
+  - fd # alternative to find: https://github.com/sharkdp/fd
   - ffmpeg
   - fortune
   - gcc
