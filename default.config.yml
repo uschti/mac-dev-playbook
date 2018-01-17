@@ -43,6 +43,7 @@ homebrew_installed_packages:
   - hugo
   - imagemagick
   - iperf
+  - jupyter
   - kotlin
   - lego
   - libevent
@@ -52,12 +53,13 @@ homebrew_installed_packages:
   - nvm
   - openshift-cli
   - openssl
-  - pt
   - pv
   - pwgen
   - python3
   - readline
   - reattach-to-user-namespace # for tmux
+  - ripgrep # fast search, replace `pt`
+  - ruby # overrite the default installation
   - source-to-image
   - speedtest-cli
   - sqlite
