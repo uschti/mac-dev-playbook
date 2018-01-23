@@ -43,6 +43,7 @@ homebrew_installed_packages:
   - hugo
   - imagemagick
   - iperf
+  - jq
   - kotlin
   - lego
   - libevent
