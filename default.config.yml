@@ -28,6 +28,7 @@ homebrew_installed_packages:
   - bash-completion
   - cookiecutter
   - cowsay
+  - diff-so-fancy
   - dos2unix
   - exiftool
   - fd # alternative to find: https://github.com/sharkdp/fd
