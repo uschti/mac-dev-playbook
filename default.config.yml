@@ -11,6 +11,7 @@ dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/Development/github.com/kisamoto/dotfiles
 dotfiles_files:
   - .aliases
+  - .ansible.cfg
   - .bash_profile
   - .gitignore
   - .inputrc
@@ -137,6 +138,15 @@ mas_email: ""
 mas_password: ""
 
 osx_script: "~/.osx --no-restart"
+
+# Create some useful directory structures
+required_directories: 
+  - "~/.venvs"
+  - "~/.ansible/roles"
+  - "~/Development"
+  - "~/go/bin"
+  - "~/go/pkg"
+  - "~/go/src"
 
 # Install packages from other package managers.
 # Note: You are responsible for making sure the required package managers are
