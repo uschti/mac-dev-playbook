@@ -6,8 +6,8 @@ configure_sudoers: yes
 configure_terminal: yes
 configure_osx: yes
 
-dotfiles_repo: https://github.com/uschti/dotfiles.git # ok
-dotfiles_repo_accept_hostkey: yes # ok
+dotfiles_repo: https://github.com/uschti/dotfiles.git
+dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/Development/github.com/uschti/dotfiles
 dotfiles_files:
   - .aliases
@@ -26,108 +26,108 @@ dotfiles_files:
   - .wgetrc
 
 homebrew_installed_packages:
-  - autoconf # ok
-  - bash-completion # ok
-  - cookiecutter # ok
-  - cowsay # ok
-  - diff-so-fancy # ok
-  - dos2unix # ok
-  - eclipse-java # ok
+  - autoconf
+  - bash-completion
+  - cookiecutter
+  - cowsay
+  - diff-so-fancy
+  - dos2unix
+  - eclipse-java
   - fd # alternative to find: https://github.com/sharkdp/fd
-  - ffmpeg # ok
-  - gcc # ok
-  - git # ok
-  - gpg # ok
-  - htop # ok
-  - httpie # ok
-  - iperf # ok
-  - mas # ok
-  - nmap # ok
-  - node # ok
-  - npm # ok
-  - openshift-cli # ok
-  - openssl # ok
-  - python3 # ok
+  - ffmpeg
+  - gcc
+  - git
+  - gpg
+  - htop
+  - httpie
+  - iperf
+  - mas
+  - nmap
+  - node
+  - npm
+  - openshift-cli
+  - openssl
+  - python3
   - ripgrep # fast search, replace `pt`
   - ruby # overrite the default installation
-  - source-to-image # ok
-  - speedtest-cli # ok
-  - ssh-copy-id # ok
-  - stormssh # ok
-  - terraform # ok
-  - thefuck # ok
-  - wget # ok
-  - wrk # ok
-  - youtube-dl # ok
+  - source-to-image
+  - speedtest-cli
+  - ssh-copy-id
+  - stormssh
+  - terraform
+  - thefuck
+  - wget
+  - wrk
+  - youtube-dl
 
 homebrew_taps:
-  - homebrew/core # ok
-  - caskroom/cask # ok
-  - homebrew/binary # ok
-  - homebrew/dupes # ok
-  - homebrew/versions # ok
+  - homebrew/core
+  - caskroom/cask
+  - homebrew/binary
+  - homebrew/dupes
+  - homebrew/versions
 
-homebrew_cask_appdir: /Applications # ok
+homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - java8 # ok
-  - android-file-transfer # ok
-  - android-sdk # ok
-  - angry-ip-scanner # ok
-  - atom # ok
-  - bitbar # ok
-  - caffeine # ok
-  - calibre # ok
-  - cyberduck # ok
-  - dash # ok
-  - docker # ok
-  - firefox # ok
-  - gimp # ok
-  - google-chrome # ok
-  - go2shell # ok
-  - handbrake # ok
-  - image2icon # ok
-  - istat-menus # ok
-  - jd-gui # ok
-  - keepassxc # ok
-  - keka # ok
-  - keystore-explorer # ok
-  - kitematic # ok
-  - libreoffice # ok
-  - mamp # ok
-  - mattermost # ok
-  - mysqlworkbench # ok
-  - nextcloud # ok
-  - nvalt # ok
-  - pgadmin4 # ok
-  - postman # ok
-  - powershell # ok
-  - skitch # ok
-  - sketch # ok
-  - skype # ok
-  - slack # ok
-  - soapui # ok
-  - sourcetree # ok
-  - sublime-text # ok
-  - thunderbird # ok
-  - tunnelblick # ok
-  - vmware-fusion # ok
-  - veracrypt # ok
-  - vlc # ok
-  - vnc-viewer # ok
-  - whatsapp # ok
-  - wireshark # ok
-  - youtube-to-mp3 # ok
+  - java8
+  - android-file-transfer
+  - android-sdk
+  - angry-ip-scanner
+  - atom
+  - bitbar
+  - caffeine
+  - calibre
+  - cyberduck
+  - dash
+  - docker
+  - firefox
+  - gimp
+  - google-chrome
+  - go2shell
+  - handbrake
+  - image2icon
+  - istat-menus
+  - jd-gui
+  - keepassxc
+  - keka
+  - keystore-explorer
+  - kitematic
+  - libreoffice
+  - mamp
+  - mattermost
+  - mysqlworkbench
+  - nextcloud
+  - nvalt
+  - pgadmin4
+  - postman
+  - powershell
+  - skitch
+  - sketch
+  - skype
+  - slack
+  - soapui
+  - sourcetree
+  - sublime-text
+  - thunderbird
+  - tunnelblick
+  - vmware-fusion
+  - veracrypt
+  - vlc
+  - vnc-viewer
+  - whatsapp
+  - wireshark
+  - youtube-to-mp3
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
-  - { id: 692867256, name: "Simplenote (1.1.8)"} # ok
-  - { id: 497799835, name: "Xcode (9.3)"} # ok
-  - { id: 409183694, name: "Keynote (7.3.1)"} # ok
-  - { id: 409203825, name: "Numbers (5.0)"} # ok
-  - { id: 452695239, name: "QREncoder (1.5)"} # ok
-  - { id: 409201541, name: "Pages (7.0)"} # ok
-  - { id: 404010395, name: "TextWrangler (5.5.2)"} # ok
-  - { id: 458887729, name: "Translate Tab (2.0.1)"} # ok
+  - { id: 692867256, name: "Simplenote (1.1.8)"}
+  - { id: 497799835, name: "Xcode (9.3)"}
+  - { id: 409183694, name: "Keynote (7.3.1)"}
+  - { id: 409203825, name: "Numbers (5.0)"}
+  - { id: 452695239, name: "QREncoder (1.5)"}
+  - { id: 409201541, name: "Pages (7.0)"}
+  - { id: 404010395, name: "TextWrangler (5.5.2)"}
+  - { id: 458887729, name: "Translate Tab (2.0.1)"}
 
 mas_email: ""
 mas_password: ""
